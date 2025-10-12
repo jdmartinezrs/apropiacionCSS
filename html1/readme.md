@@ -1,0 +1,1 @@
+https://developer.mozilla.org/es/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation
