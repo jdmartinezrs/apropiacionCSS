@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ApropiaciinCSS</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/section1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Apropiación CSS</h1>
+      <nav>
+        <ul>
+          <li><button id="home">Hover</button></li>
+          <li><button id="about">Hover</button></li>
+          <li><button id="services">Hover</button></li>
+          <li><button id="contact">Hover</button></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section1">
+        <form action="">
+            <h2>FirstChild Section1</h2>
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Nombre"
+            required
+          />
+
+          <label for="apellido">Apellido</label>
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            placeholder="Apellido"
+            required
+          />
+
+          <label for="correo">Correo</label>
+          <input
+            type="email"
+            id="correo"
+            name="correo"
+            placeholder="Correo"
+            required
+          />
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        <h2>Welcome to Apropiación CSS</h2>
+        <p>
+          This is a sample content area. Click the buttons in the navigation to
+          see different sections.
+        </p>
+      </section>
+      <section>
+        <h2>About Us</h2>
+        <p>
+          We are dedicated to teaching CSS through practical examples and
+          projects.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Apropiación CSS. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
