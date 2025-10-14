@@ -12,3 +12,31 @@
      font-family: "Playwrite DE SAS", cursive;
      color: red;
 }
+
+
+.section2 p::after {
+  content: "";
+  display: inline-block;
+  width: 10%;
+  height: 5px;
+  background-color: red; 
+  margin-top: 5px; }
+
+  .cita{
+    font-size: 21px;
+    font-style: italic;
+    display:inline-block;
+    position: absolute;
+    right: 5%;
+    top:55%;
+  }
+
+  .cita::before {
+  content: "“"; /* comilla de apertura */
+  margin-right: 4px; /* pequeño espacio entre la comilla y el texto */
+}
+
+.cita::after {
+  content: "”"; /* comilla de cierre */
+  margin-left: 4px; /* pequeño espacio entre el texto y la comilla */
+}
