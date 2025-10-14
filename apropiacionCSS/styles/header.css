@@ -36,7 +36,7 @@ nav li button {
 
 }
 nav li button:hover {
-  color: #007BFF; 
+  color: orange;
 }
 
 nav li {
