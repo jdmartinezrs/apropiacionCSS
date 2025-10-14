@@ -1,0 +1,14 @@
+.section2{
+    color: black;
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top:20%;
+    z-index: 1;
+    display: inline-block;
+}
+
+.section2 p:first-of-type{
+     font-family: "Playwrite DE SAS", cursive;
+     color: red;
+}

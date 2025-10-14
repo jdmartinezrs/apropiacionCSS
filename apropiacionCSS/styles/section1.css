@@ -1,8 +1,13 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #1e1b1b;
+}
+.section1{
+    display: inline-block;
 }
 
 button{
@@ -54,7 +59,7 @@ input{
     padding: 5px;
     border: none;
     outline: none;
-    color: #f4f4f4;
+    
 }
 
 form:first-child{
@@ -75,7 +80,6 @@ form:first-child{
   margin-top: 10px;
   color: #1e1b1b;
    width: 60%;
-    
 }
 
 /* Cuando el elemento es el objetivo (:target), se muestra */
@@ -100,4 +104,26 @@ color: #f4f4f4;
 background-color: orange;
 text-decoration: none;  
 color:  #1e1b1b;
+}
+
+input:invalid {
+  background-color: red;
+}
+
+/* Cuando el campo es válido */
+input:valid {
+ background: #f4f4f4;
+}
+
+input[type=email]{
+    background-color: rgb(255, 255, 143);
+}
+
+input:focus {        
+  box-shadow: 0 0 8px rgb(238, 255, 238);
+}
+
+h1:only-of-type{
+    font-family: "Playwrite DE SAS", cursive;
+
 }

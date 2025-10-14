@@ -6,10 +6,11 @@
     <title>ApropiaciinCSS</title>
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/section1.css" />
+    <link rel="stylesheet" href="styles/section2.css">
   </head>
   <body>
     <header>
-      <h1>Apropiación CSS</h1>
+      <h1>h1:only-of-type</h1>
       <nav>
         <ul>
           <li><button id="home">Hover</button></li>
@@ -23,13 +24,14 @@
       <section class="section1">
         <form action="">
             <h2>FirstChild Section1</h2>
-          <label for="nombre">Nombre</label>
+          <label for="nombre">*Nombre</label>
           <input
             type="text"
             id="nombre"
             name="nombre"
             placeholder="Nombre"
             required
+           
           />
 
           <label for="apellido">Apellido</label>
@@ -38,7 +40,7 @@
             id="apellido"
             name="apellido"
             placeholder="Apellido"
-            required
+            
           />
 
           <label for="correo">Correo</label>
@@ -46,8 +48,7 @@
             type="email"
             id="correo"
             name="correo"
-            placeholder="Correo"
-            required
+            placeholder="Correo" 
           />
 
           <button type="submit">Enviar</button>
@@ -59,15 +60,15 @@
 <button class="ocultar"><a href="#">Ocultar</a></button>
 
 <div id="mensaje">
-  <p>Bienvenido a la actividad de Apropiación!</p>
+  <p>¡Bienvenido a la actividad de Apropiación!</p>
 </div>
       </section>
-      <section>
-        <h2>About Us</h2>
-        <p>
-          We are dedicated to teaching CSS through practical examples and
-          projects.
+
+      <section class="section2">
+        <h2>.section2 p:first-of-type</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui natus voluptates, sapiente, quam sed architecto consequuntur officia repellendus culpa, dicta nostrum unde consectetur nulla excepturi voluptatum ipsum! Architecto, ducimus rem?
         </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam laboriosam, qui vitae deleniti tempora. Nobis aliquid ut autem nulla perspiciatis assumenda maxime harum labore hic, distinctio, atque beatae nostrum?</p>
       </section>
     </main>
     <footer>
