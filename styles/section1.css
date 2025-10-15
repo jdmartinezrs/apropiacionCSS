@@ -167,3 +167,26 @@ h2::before {
   color: #1e1b1b;
 }
 
+.input-box {
+  position: relative;
+  width: 260px;
+}
+
+.input-box::before {
+  content: "📧"; /* ícono (puede ser Unicode o Font Awesome/Boxicons) */
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);/* color lila */
+  font-size: 18px;
+}
+
+.input-box input {
+ 
+  padding: 10px 10px 10px 35px; /* espacio para el ícono */
+ 
+}
+
+.input-box input::placeholder {
+  color: #494649;
+}
