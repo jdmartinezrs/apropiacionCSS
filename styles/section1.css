@@ -190,3 +190,39 @@ h2::before {
 .input-box input::placeholder {
   color: #494649;
 }
+
+form {
+  position: relative;
+  display:block
+}
+
+form .cerrar{
+  position: absolute;
+  border-radius: 50px;
+  z-index: 0;
+  padding: 5px 10px;
+  margin-left: 82%;
+  background-color: orange;
+  top: 0%;
+}
+
+
+.caja1{
+  background-color: #494649;
+  height: 30%;
+  width: 15%;
+  z-index: 1;
+  color:#f4f4f4 ;
+  position:absolute;
+  margin-top: 10%;
+ 
+}
+
+.caja2{
+  background-color: orange;
+  height: 15%;
+   width: 15%;
+   position: absolute;
+   z-index: 1;
+   margin-top: 15%;
+}
