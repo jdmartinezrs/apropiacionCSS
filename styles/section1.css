@@ -190,14 +190,16 @@ h2::before {
 .input-box input::placeholder {
   color: #494649;
 }
-
-form {
-  position: relative;
-  display:block
-}
+/*
+.section1 form {
+ 
+  top: 0%;
+  left: 20%;
+  transform: translate(50%, 50%);
+}*/
 
 form .cerrar{
-  position: absolute;
+  
   border-radius: 50px;
   z-index: 0;
   padding: 5px 10px;
@@ -226,3 +228,4 @@ form .cerrar{
    z-index: 1;
    margin-top: 15%;
 }
+
